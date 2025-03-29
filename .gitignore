@@ -1,0 +1,89 @@
+# Ignore Visual Studio and build-related files
+.vs/
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.log
+*.tlog
+*.pdb
+*.ilk
+*.ipch
+*.vsp
+*.vspx
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# Ignore build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Ignore JetBrains Rider IDE settings
+.idea/
+*.sln.iml
+
+# Ignore User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore logs, databases, and temporary files
+*.log
+*.sqlite
+*.db
+*.mdf
+*.ldf
+
+# Ignore ASP.NET temporary files
+**/App_Data/Temp/
+**/App_Data/Logs/
+**/App_Data/Cache/
+**/node_modules/
+**/bower_components/
+
+# Ignore config files with sensitive information
+secrets.json
+appsettings.json
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# Ignore Entity Framework migrations
+Migrations/
+
+# Ignore compiled DLLs
+*.dll
+*.exe
+*.xap
+*.x86
+*.x64
+
+# Ignore ReSharper files
+_ReSharper.Caches/
+
+# Ignore .NET Core & Blazor WebAssembly cache
+obj/
+bin/
+wwwroot/_framework/
+
+# Ignore Docker files
+docker-compose.override.yml
